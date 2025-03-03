@@ -13,6 +13,7 @@ Materials for nf-core preh-hackathon training KEMRI-wellcome Trust Program site
 |Mar 17, 4:00pm - 5:00pm| Worflow caching and checkpointing | 
 |Mar 19, 3:00pm - 4:00pm| Hands on: A simple nextflow pipeline |
 
+- [Meeting Link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDExYjM2ZjctNDZjZC00OTllLTliOWEtNjg3N2I0MDc4ZTBk%40thread.v2/0?context=%7b%22Tid%22%3a%22a5c0a820-c887-4727-ac66-403237d8c389%22%2c%22Oid%22%3a%220dc066b2-a745-4e0a-815c-ef76758bfc18%22%7d)
 ### Day 01
 #### Learning Objectives
 - what a workflow management system is.
