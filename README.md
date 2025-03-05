@@ -7,7 +7,7 @@ Materials for nf-core preh-hackathon training KEMRI-wellcome Trust Program site
 |Date/Time|Topic|
 |:---|:---|
 |Mar 03, 4:00pm  - 5:00pm| Introduction to nextflow |
-|Mar 05, 3:00pm  - 4:00pm| Channels and processes|
+|Mar 05, 3:00pm  - 4:30pm| Channels and processes|
 |Mar 10, 4:00pm  - 5:00pm| Workflow and operators |
 |Mar 12, 3:00pm - 4:00pm| Reporting and config files|
 |Mar 17, 4:00pm - 5:00pm| Worflow caching and checkpointing | 
@@ -77,3 +77,6 @@ Github Actions & GitHub CI:
 
 
 Do you have any questions? mail to oyesigyemukamaadolf25@gmail.com
+
+### Contributors  : 
+- [Firas Zemzem](https://github.com/Zemzemfiras1) : PhD student ,Laboratory of Cytogenetics, Molecular Genetics and Biology of Reproduction CHU Farhat Hached Sousse, Higher institute of Biotechnology of Monastir, University of Monastir, Tunisia
