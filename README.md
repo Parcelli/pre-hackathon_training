@@ -26,13 +26,40 @@ Materials for nf-core preh-hackathon training KEMRI-wellcome Trust Program site
 ### Practical Session
 
 - Ensure that you've conda installed. Incase you don't you can follow these steps
-'''
+First navigate to your home directory 
+```
+cd ~ 
 curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
 
-'''
+```
+Then run the command below. Type yes for all the prompts
 
+```
+bash Miniforge3-$(uname)-$(uname -m).sh
+```
+Then restart your terminal
+```
+source ~/.bashrc
+```
 
+Create a conda environment and install nextflow in that env
+```
+conda create -n nextflow bioconda::nextflow
+```
 
+#### Overview for today's practical session
+
+We shalll create a small pipeline that performs quality control on sequencing reads using FastQC and fastp, generates a summary report using MultiQC, and assembles the genome using shovill.
+
+Initially, we will write the pipeline as a single script and later modularize it.
+
+We shall use 2 paired end sequences of Sars-cov2 as our test data
+
+Key parts of the pipeline include;
+- Defining parameters to parse our test data into the pipeline
+- defining processes for fastqc, fastp, multiqc and shovill.
+- Creating a workflow
+- creating a config file
 
 
 
