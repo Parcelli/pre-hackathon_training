@@ -23,7 +23,12 @@ Materials for nf-core preh-hackathon training KEMRI-wellcome Trust Program site
 - How to install nextflow
 - Run a Nextflow script.
 
-### DAY 02
+### Practical Session
+Ensure that you've conda installed. Incase you don't you can follow these steps
+---
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+
+'''
 
 
 
