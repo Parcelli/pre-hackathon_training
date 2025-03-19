@@ -1,0 +1,76 @@
+Mar-19 15:47:17.088 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -profile docker
+Mar-19 15:47:17.197 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.10.5
+Mar-19 15:47:17.228 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/codespace/.nextflow/plugins; core-plugins: nf-amazon@2.9.2,nf-azure@1.10.2,nf-cloudcache@0.4.2,nf-codecommit@0.2.2,nf-console@1.1.4,nf-google@1.15.4,nf-tower@1.9.3,nf-wave@1.7.4
+Mar-19 15:47:17.245 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Mar-19 15:47:17.246 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Mar-19 15:47:17.250 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Mar-19 15:47:17.264 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Mar-19 15:47:17.290 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /workspaces/pre-hackathon_training/mypipeline/nextflow.config
+Mar-19 15:47:17.294 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /workspaces/pre-hackathon_training/mypipeline/nextflow.config
+Mar-19 15:47:17.330 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/codespace/.nextflow/secrets/store.json
+Mar-19 15:47:17.333 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@141e879d] - activable => nextflow.secret.LocalSecretsProvider@141e879d
+Mar-19 15:47:17.341 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `docker`
+Mar-19 15:47:17.868 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [conda, docker]
+Mar-19 15:47:17.901 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Mar-19 15:47:17.915 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [sharp_tuckerman] DSL2 - revision: 6036129818
+Mar-19 15:47:17.916 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Mar-19 15:47:17.917 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Mar-19 15:47:17.970 [main] DEBUG nextflow.Session - Session UUID: 559d2932-e02c-4412-b4ad-190c31884728
+Mar-19 15:47:17.971 [main] DEBUG nextflow.Session - Run name: sharp_tuckerman
+Mar-19 15:47:17.971 [main] DEBUG nextflow.Session - Executor pool size: 4
+Mar-19 15:47:17.980 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Mar-19 15:47:17.987 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Mar-19 15:47:18.008 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.10.5 build 5935
+  Created: 04-03-2025 17:55 UTC 
+  System: Linux 6.8.0-1021-azure
+  Runtime: Groovy 4.0.23 on OpenJDK 64-Bit Server VM 11.0.13+7-b1751.21
+  Encoding: UTF-8 (UTF-8)
+  Process: 58483@codespaces-ba11ac [127.0.0.1]
+  CPUs: 4 - Mem: 15.6 GB (667.6 MB) - Swap: 0 (0)
+Mar-19 15:47:18.031 [main] DEBUG nextflow.Session - Work-dir: /workspaces/pre-hackathon_training/mypipeline/work [ext2/ext3]
+Mar-19 15:47:18.032 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /workspaces/pre-hackathon_training/mypipeline/bin
+Mar-19 15:47:18.042 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Mar-19 15:47:18.052 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Mar-19 15:47:18.076 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Mar-19 15:47:18.088 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Mar-19 15:47:18.159 [main] DEBUG nextflow.Session - Session start
+Mar-19 15:47:18.400 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Mar-19 15:47:18.813 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-19 15:47:18.814 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-19 15:47:18.820 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Mar-19 15:47:18.825 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=4; memory=15.6 GB; capacity=4; pollInterval=100ms; dumpInterval=5m
+Mar-19 15:47:18.828 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Mar-19 15:47:18.928 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-19 15:47:18.929 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-19 15:47:18.935 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: multiqc, Fastqc
+Mar-19 15:47:18.935 [main] DEBUG nextflow.Session - Igniting dataflow network (3)
+Mar-19 15:47:18.941 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Fastqc
+Mar-19 15:47:18.943 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > multiqc
+Mar-19 15:47:18.944 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_defa8578035d4346: /workspaces/pre-hackathon_training/mypipeline/main.nf
+  Script_f61a7d7aea2f5921: /workspaces/pre-hackathon_training/mypipeline/./modules/local/multiqc/main.nf
+  Script_851e15763fe7316d: /workspaces/pre-hackathon_training/mypipeline/./modules/local/fastqc/main.nf
+Mar-19 15:47:18.944 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Mar-19 15:47:18.944 [main] DEBUG nextflow.Session - Session await
+Mar-19 15:47:18.945 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /workspaces/pre-hackathon_training/data/; pattern: SRR*; options: [:]
+Mar-19 15:47:19.230 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-19 15:47:19.233 [Task submitter] INFO  nextflow.Session - [66/c350a9] Submitted process > Fastqc (2)
+Mar-19 15:47:19.259 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-19 15:47:19.262 [Task submitter] INFO  nextflow.Session - [25/76a911] Submitted process > Fastqc (1)
+Mar-19 15:47:24.941 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: Fastqc (2); status: COMPLETED; exit: 0; error: -; workDir: /workspaces/pre-hackathon_training/mypipeline/work/66/c350a9054c8f91c731bdda873cc7d3]
+Mar-19 15:47:24.943 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Mar-19 15:47:24.993 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: Fastqc (1); status: COMPLETED; exit: 0; error: -; workDir: /workspaces/pre-hackathon_training/mypipeline/work/25/76a911dc06261007a0f132e2e51193]
+Mar-19 15:47:24.993 [TaskFinalizer-1] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Mar-19 15:47:25.066 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-19 15:47:25.070 [Task submitter] INFO  nextflow.Session - [d1/ec135f] Submitted process > multiqc
+Mar-19 15:47:30.114 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: multiqc; status: COMPLETED; exit: 0; error: -; workDir: /workspaces/pre-hackathon_training/mypipeline/work/d1/ec135fda05df92e331387a76ede65a]
+Mar-19 15:47:30.130 [main] DEBUG nextflow.Session - Session await > all processes finished
+Mar-19 15:47:30.214 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Mar-19 15:47:30.214 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Mar-19 15:47:30.218 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Mar-19 15:47:30.218 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Mar-19 15:47:30.228 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=3; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=16.4s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=2; peakMemory=0; ]
+Mar-19 15:47:30.258 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Mar-19 15:47:30.268 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Mar-19 15:47:30.268 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

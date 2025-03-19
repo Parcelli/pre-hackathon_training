@@ -1,0 +1,5 @@
+[2025-03-19 15:47:29,327] multiqc.core.file_search                           [INFO   ]  Search path: /workspaces/pre-hackathon_training/mypipeline/work/d1/ec135fda05df92e331387a76ede65a/SRR32590605_1_fastqc.html
+[2025-03-19 15:47:29,328] multiqc.core.file_search                           [INFO   ]  Search path: /workspaces/pre-hackathon_training/mypipeline/work/d1/ec135fda05df92e331387a76ede65a/SRR32590605_1_fastqc.zip
+[2025-03-19 15:47:29,328] multiqc.core.file_search                           [INFO   ]  Search path: /workspaces/pre-hackathon_training/mypipeline/work/d1/ec135fda05df92e331387a76ede65a/SRR32590605_2_fastqc.html
+[2025-03-19 15:47:29,328] multiqc.core.file_search                           [INFO   ]  Search path: /workspaces/pre-hackathon_training/mypipeline/work/d1/ec135fda05df92e331387a76ede65a/SRR32590605_2_fastqc.zip
+[2025-03-19 15:47:29,425] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 2 reports

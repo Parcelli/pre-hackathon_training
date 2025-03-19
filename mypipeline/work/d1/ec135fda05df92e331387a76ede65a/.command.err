@@ -1,0 +1,13 @@
+
+/// MultiQC 🔍 v1.27.1
+
+       file_search | Search path: /workspaces/pre-hackathon_training/mypipeline/work/d1/ec135fda05df92e331387a76ede65a/SRR32590605_1_fastqc.html
+       file_search | Search path: /workspaces/pre-hackathon_training/mypipeline/work/d1/ec135fda05df92e331387a76ede65a/SRR32590605_1_fastqc.zip
+       file_search | Search path: /workspaces/pre-hackathon_training/mypipeline/work/d1/ec135fda05df92e331387a76ede65a/SRR32590605_2_fastqc.html
+       file_search | Search path: /workspaces/pre-hackathon_training/mypipeline/work/d1/ec135fda05df92e331387a76ede65a/SRR32590605_2_fastqc.zip
+
+            fastqc | Found 2 reports
+
+     write_results | Data        : multiqc_data
+     write_results | Report      : multiqc_report.html
+           multiqc | MultiQC complete

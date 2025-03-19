@@ -1,0 +1,3 @@
+2025-03-19 15:44:17	-	sad_newton	-	6036129818d9a81831fe133ff9fa3f32	33c95400-8b41-4be3-ab85-7d14c3bd6456	nextflow run main.nf
+2025-03-19 15:44:43	-	drunk_leakey	-	6036129818d9a81831fe133ff9fa3f32	97179cb4-6952-4c3d-9082-a00cd5698db8	nextflow run main.nf -profile docker
+2025-03-19 15:47:18	12.3s	sharp_tuckerman	OK	6036129818d9a81831fe133ff9fa3f32	559d2932-e02c-4412-b4ad-190c31884728	nextflow run main.nf -profile docker

@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR32590605_1	/workspaces/pre-hackathon_training/mypipeline/work/d1/ec135fda05df92e331387a76ede65a/SRR32590605_1_fastqc.zip
+FastQC	all_sections	SRR32590605_2	/workspaces/pre-hackathon_training/mypipeline/work/d1/ec135fda05df92e331387a76ede65a/SRR32590605_2_fastqc.zip
